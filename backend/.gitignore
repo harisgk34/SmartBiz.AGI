@@ -1,0 +1,21 @@
+# .gitignore
+
+
+.env
+backend/.env
+frontend/.env
+
+
+# Node modules (always ignore this)
+node_modules/
+
+# Local environment variables
+.env
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# nodemon config (optional)
+nodemon-debug.log
