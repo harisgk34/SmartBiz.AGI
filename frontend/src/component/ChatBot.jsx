@@ -17,7 +17,7 @@ const Chatbot = () => {
     setLoading(true)
 
     try {
-      const res = await axios.post('http://localhost:5000/api/v1/chatApi/chat', { message: input })
+      const res = await axios.post('https://smartbiz-agi.onrender.com', { message: input })
       const botReply = res.data.reply
       setMessages([...newMessages, { text: botReply, sender: 'bot' }])
     } catch (err) {
