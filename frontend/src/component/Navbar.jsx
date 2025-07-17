@@ -40,7 +40,7 @@ const Navbar = () => {
     <nav
       data-aos="fade-down"
       className={`
-        fixed w-full z-50 transition-all duration-300
+        fixed w-screen z-50 transition-all duration-300
         ${showNavbar ? 'translate-y-0' : '-translate-y-full'}
         ${scrolled ? 'bg-slate-900 text-white shadow-md' : 'bg-transparent '}
       `}

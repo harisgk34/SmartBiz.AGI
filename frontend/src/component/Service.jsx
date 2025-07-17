@@ -54,7 +54,7 @@ const Service = () => {
           {ServiceList.map((item,index) => {
 
             return (
-            <div key={index} data-aos="flip-left" className='shadow-2xl shadow-black mt-14 m-5 text-white   p-4 bg-slate-700 flex flex-col items-baseline justify-between '>
+            <div key={index} data-aos="flip-left" className='shadow-2xl shadow-black mt-14 m-5 text-white   p-4 bg-slate-700 flex flex-col items-center justify-center '>
             <img src={item.image} alt="AI-Powered-App"  />
             <h1 className='font-bold mt-9 text-2xl '>{item.title}</h1>
             <p className='mt-4 font-mono'>{item.description}</p>
