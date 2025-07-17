@@ -31,9 +31,11 @@ const ConsulTancy = () => {
         </div>
 
         <div className="mt-10">
-          <Link to="/contact" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">
-            Book a Free Consultation
-          </Link>
+         
+        <a className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition" href="https://wa.me/918870575425" target="_blank" rel="noreferrer"> Book a Free Consultation</a>
+            
+           
+        
         </div>
       </div>
     </div>

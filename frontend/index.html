@@ -6,8 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SmartBiz.AGI</title>
   </head>
-  <body>
+  <!-- <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
-  </body>
+  </body> -->
+
+<body>
+  <div id="loading-screen" style="display: flex; align-items: center; justify-content: center; height: 100vh; background: #fff;">
+    <img src="/chat/Bot.png" alt="Loading..." style="width: 80px;" />
+    <span style="margin-left: 12px; font-size: 20px; font-weight: bold; margin-top: 0%;">Loading SmartBiz.AGI...</span>
+  </div>
+
+  <div id="root" style="display: none;"></div>
+
+  <script type="module">
+    // Show React App when JS is ready
+    window.addEventListener('DOMContentLoaded', () => {
+      const loadingScreen = document.getElementById('loading-screen');
+      const root = document.getElementById('root');
+      if (loadingScreen && root) {
+        loadingScreen.style.display = 'none';
+        root.style.display = 'block';
+      }
+    });
+  </script>
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+
 </html>

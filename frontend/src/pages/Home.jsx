@@ -35,10 +35,10 @@ const Home = () => {
         <Service />
         <HowItWorks />
         <Testimonial />
-        <div>
+        <div className='maintance_2' data-aos="fade-up">
           <h1 className='mt-5 text-2xl font-bold flex justify-center items-center text-gray-800'>
- SmartBiz Comming Soon in all AppStores Aug 9, 2025
-</h1>
+            SmartBiz Comming Soon in all AppStores Aug 9, 2025
+           </h1>
 
 <p className='mt-3 text-sm font-normal flex justify-center items-center '> 
   "We’re working on something amazing. Please check back soon."

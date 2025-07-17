@@ -13,9 +13,9 @@ const ServiceList =[
   },
     {
     title:"AI-Powered Business Solutions",
-    description: `Active,Passive,Portfolio,Business,Royalty,
-     Interest,Capital Gain,Subscription`,
+    description: "Active,Passive,Portfolio,Business,Royalty,Interest,Capital Gain,Subscription",
     image: "/Service/serviceBot.jpg",
+    btn:"See Products"
    
   },
   {
@@ -54,10 +54,10 @@ const Service = () => {
           {ServiceList.map((item,index) => {
 
             return (
-            <div key={index} data-aos="flip-left" className='shadow-2xl shadow-black mt-14 m-5 text-white   p-4 bg-slate-700 flex flex-col items-center justify-center '>
+            <div key={index} data-aos="flip-left" className='shadow-2xl shadow-black mt-14 m-5 text-white   p-4 bg-slate-700 flex flex-col items-center justify-between '>
             <img src={item.image} alt="AI-Powered-App"  />
             <h1 className='font-bold mt-9 text-2xl '>{item.title}</h1>
-            <p className='mt-4 font-mono'>{item.description}</p>
+            <p className='mt-4 font-mono w-fit'>{item.description}</p>
             <button className='bg-black text-white px-4 py-2 rounded mt-6'>{item.btn}</button>
           </div> 
 

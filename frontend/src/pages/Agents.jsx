@@ -301,25 +301,27 @@ key={agents.id} >
          </div>
 
     {/* maintanace image  */}
-    <div>
-      <div className=' mt-10 flex justify-center items-center text-gray-800 text-xs font-bold'> 
-        <h1 className='text-2xl font-bold'>"This section is under maintenance 🚧"</h1> 
+    <div className=' maintance_2 mt-10 ' data-aos="fade-up" >
+      <div className='headdmaintain  mt-10 flex justify-center items-center text-gray-800 text-xs font-bold '> 
 
-
-</div>
-<p className='text-sm font-normal flex justify-center items-center '> 
+        <h1 className=' text-2xl font-bold'>"Next Agentic AI section is under maintenance 🚧"</h1> 
+        <p>
+          
+        </p>
+       </div>  
+       <p className='text-sm font-normal flex justify-center items-center '> 
   "We’re working on something amazing. Please check back soon."
-<br />
+     <br />
 "Our AI Agents are learning... come back in a bit!"
-</p>
+       </p>
 
+<div className=' flex flex-col maitn-img  justify-center items-center '>
 <h1 className='mt-5 text-2xl font-bold flex justify-center items-center text-gray-800'>
  SmartBiz Comming Soon in all AppStores Aug 9, 2025
 </h1>
 
-
-          <img className='h-3/4 w-3/4 p-5 m-4 flex justify-center items-center' src="Agents/maintenance.jpg " alt="this section under  maintanace "  />
-
+  <img className='h-1/2 w-1/2 p-5 m-4  ' src="Agents/maintenance.jpg " alt="this section under  maintanace "  />
+</div>
     </div>
 
         </div>
