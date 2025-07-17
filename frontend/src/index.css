@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 640px) {
   body{
-    width: 100%;
+    width: 100vw;
   }
   .banner{
     position: relative;

@@ -35,6 +35,19 @@ const Home = () => {
         <Service />
         <HowItWorks />
         <Testimonial />
+        <div>
+          <h1 className='mt-5 text-2xl font-bold flex justify-center items-center text-gray-800'>
+ SmartBiz Comming Soon in all AppStores Aug 9, 2025
+</h1>
+
+<p className='mt-3 text-sm font-normal flex justify-center items-center '> 
+  "We’re working on something amazing. Please check back soon."
+<br />
+"Our AI Agents are learning... come back in a bit!"
+</p>
+
+          <img className='mt-5' src="Agents/app.jpg" alt="SmartBiz Automation is app Store" />
+        </div>
         <Pricing />
         <MadeByDeveloper />
         <CTA />

@@ -199,7 +199,7 @@ const Agents = () => {
     name: "Fiverr AI Agent",
     description:
       "Manage Fiverr gigs, client responses, and order tracking with smart automation.",
-    image: "/Agents/Worker/Freelancer.png",
+    image: "/Agents/Worker/fiverr.png",
     bgImage: "/Agents/AgentbBg.avif",
     rating: 4.1,
     price: "₹430//Month",
@@ -290,16 +290,38 @@ key={agents.id} >
             </li>
         </ul>
       </div>
+
+    
     </section>
 
     ))}
     
     
     
-    
-    
-    
+         </div>
+
+    {/* maintanace image  */}
+    <div>
+      <div className=' mt-10 flex justify-center items-center text-gray-800 text-xs font-bold'> 
+        <h1 className='text-2xl font-bold'>"This section is under maintenance 🚧"</h1> 
+
+
+</div>
+<p className='text-sm font-normal flex justify-center items-center '> 
+  "We’re working on something amazing. Please check back soon."
+<br />
+"Our AI Agents are learning... come back in a bit!"
+</p>
+
+<h1 className='mt-5 text-2xl font-bold flex justify-center items-center text-gray-800'>
+ SmartBiz Comming Soon in all AppStores Aug 9, 2025
+</h1>
+
+
+          <img className='h-3/4 w-3/4 p-5 m-4 flex justify-center items-center' src="Agents/maintenance.jpg " alt="this section under  maintanace "  />
+
     </div>
+
         </div>
 
    

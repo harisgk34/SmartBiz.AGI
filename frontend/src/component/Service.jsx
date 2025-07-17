@@ -48,7 +48,7 @@ const Service = () => {
     <div className= ' p-8 bg-gray-100 text-gray-800 text-xs  '>
         <h2 data-aos="fade-left" className='   flex justify-center text-3xl font-bold mb-6 '>Our Services </h2> 
 
-        <section  className='h-auto service m-3 w-full grid grid-flow-col grid-cols-3 grid-rows-2 gap-5 justify-between '>
+        <section  className='h-auto service m-3 grid grid-flow-col grid-cols-3 grid-rows-2 gap-5 justify-between '>
         
 
           {ServiceList.map((item,index) => {
