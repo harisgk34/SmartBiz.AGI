@@ -86,11 +86,24 @@
 
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 const Agents = () => {
 
   const agents = [
+      {
+    id: 10,
+    name: "Blog AI Agent",
+    description:
+      "Boost your YouTube channel with automation tools for content planning, title generation, and publishing schedules.",
+    image: "/Agents/Worker/BlogAuto-removebg-preview.png",
+    bgImage: "/Agents/AgentbBg.avif",
+    rating: 4.5,
+    price: "₹415/Month",
+    delivery: "1 Day Delivery",
+    src:"https://wa.me/918870575425?text=Hi, I'm interested in buying the Blog AI Agent"
+  },
   {
     id: 1,
     name: "YouTube AI Agent",
@@ -276,14 +289,17 @@ key={agents.id} >
     <p className="text-lg font-semibold text-green-700 mb-1">{agents.price}</p>
     <p className="text-sm text-blue-600 mb-2">{agents.delivery}</p>
 
+<Link to="/chatBlog" >
     <a
-      href={`https://wa.me/918870575425?text=Hi, I'm interested in buying the Agents`}
+      href={agents.src || "https://wa.me/918870575425?text=Hi, I'm interested in buying the " + agents.name}
       target="_blank"
       rel="noreferrer"
       className="inline-block bg-gray-900 text-white px-5 py-2 rounded hover:bg-blue-700"
     >
       Subscribe Now
+      
     </a>
+    Agents</Link>
   </div>
 </div>
             </div>

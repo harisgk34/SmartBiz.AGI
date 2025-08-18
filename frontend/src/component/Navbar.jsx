@@ -58,8 +58,6 @@ const Navbar = () => {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/Agents">Agents</Link></li>
           <li><Link to="/consultancy">Consultancy</Link></li>
-          
-
           <li><Link to="/pricing">Subscription</Link></li>
           <li><Link to="/blog">Blog</Link></li>
         </ul>

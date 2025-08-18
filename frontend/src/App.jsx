@@ -13,6 +13,8 @@ import Footer from './component/Footer';
 import Login from './pages/Login';
 import Register from './pages/Register';
 import AgenticAI from './pages/AgenticAI';
+import ChatBlog from './pages/ChatBlog';
+
 
 
 
@@ -44,6 +46,8 @@ function App() {
 <Route path="/Register" element={<Register />} />
       <Route path='/pricing' element={<Pricing/>} />
       <Route path='/AgenticAI' element={<AgenticAI/>} />
+      <Route path='/ChatBlog' element={<ChatBlog/>} />
+
 
 
       
